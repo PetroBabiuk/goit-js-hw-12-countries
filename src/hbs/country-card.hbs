@@ -1,0 +1,17 @@
+<div class='card'>
+     <div class='card-img-top'>
+      <img src='{{flag}}' alt='{{country.name}}'>
+    </div>
+    <div class='card-body'>
+     <h2 class='card-title'><b>Название:</b>{{name}}<h2>
+      <p class='card-text'><b>Столица:</b>{{capital}}</p>
+      <p class='card-text'><b>Альфа код:</b>{{alpha3Code}}</p>
+      <p class='card-text'><b>Население:</b>{{population}}</p>
+      <p class='card-text'><b>Есть границы с:</b></p>
+     <ul class='list-group'>
+     {{#each this.borders}}
+      <li class='list-group-item'>{{i}}</li>
+     {{/each}}
+     </ul>
+     </div>
+    </div>
