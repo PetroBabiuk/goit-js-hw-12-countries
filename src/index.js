@@ -2,6 +2,7 @@ import './sass/main.scss';
 import countriesTpl from './hbs/countries-list.hbs';
 import countryTpl from './hbs/country-card.hbs';
 import fetchCountries from './js/fetchCountries.js';
+
 var debounce = require('lodash.debounce');
 
 const refs = {
