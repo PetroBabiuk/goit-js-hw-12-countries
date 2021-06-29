@@ -1,0 +1,12 @@
+.form {
+    width: 400px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+
+    & .input{
+        width: 398px;
+        height: 38px;
+        padding-left: 10px;
+    }
+}

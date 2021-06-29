@@ -1,16 +1,16 @@
 {{#each this}}
 <div class='card'>
-     <div class='card-img-top'>
+     <div class='card-img'>
       <img src='{{flag}}' alt='{{name}}'>
     </div>
     <div class='card-body'>
-     <h2 class='card-title'><b>Название:</b>{{name}}<h2>
-      <p class='card-text'><b>Столица:</b>{{capital}}</p>
-      <p class='card-text'><b>Альфа код:</b>{{alpha3Code}}</p>
-      <p class='card-text'><b>Население:</b>{{population}}</p>
-      <p class='card-text'><b>Площадь:</b>{{area}} кв. км</p>
-      <p class='card-text'><b>Есть границы с:</b></p>
-     <ul class='list-group'>
+     <h2 class='card-title'><b>Название: </b>{{name}}<h2>
+      <p class='card-text'><b>Столица: </b>{{capital}}</p>
+      <p class='card-text'><b>Альфа код: </b>{{alpha3Code}}</p>
+      <p class='card-text'><b>Население: </b>{{population}}</p>
+      <p class='card-text'><b>Площадь: </b>{{area}} кв. км</p>
+      <p class='card-text'><b>Есть границы с: </b></p>
+     <ul class='list-group list'>
      {{#each borders}}
       <li class='list-group-item'>{{this}}</li>
      {{/each}}
